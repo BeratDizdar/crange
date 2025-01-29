@@ -1,6 +1,7 @@
 #pragma once
 
 #include <stdio.h>
+#include <stdlib.h>
 
 #define in_range(start, end, step) for(int i = (start); i < (end); i += (step))
 
