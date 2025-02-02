@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 #define in_range(start, end, step) for(int i = (start); i < (end); i += (step))
+#define iter(start, end, step) int i = start; i < end; i+=step
 
 typedef struct Range{
     int start;
